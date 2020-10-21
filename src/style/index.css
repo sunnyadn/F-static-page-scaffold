@@ -2,6 +2,7 @@ body {
   font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
     BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   background-color: #e9ebee;
+  margin: 0;
 }
 
 .header {
@@ -46,6 +47,41 @@ body {
 }
 
 .content {
-  width: 981px;
   position: absolute;
+  padding: 20px 200px;
+  width: calc(100% - 400px);
+}
+
+.entries {
+  margin-top: 40px;
+  display: flex;
+}
+
+.entry {
+  flex: 1;
+  background: white;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.entry + .entry {
+  margin-left: 30px;
+}
+
+.description {
+  color: gray;
+}
+
+.button {
+  margin-top: 80px;
+  height: 30px;
+  width: 50px;
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+  background-color: #efefef;
 }
