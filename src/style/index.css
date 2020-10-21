@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
     BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   background-color: #e9ebee;
   margin: 0;
+  min-width: 965px;
 }
 
 .header {
@@ -47,9 +52,8 @@ body {
 }
 
 .content {
-  position: absolute;
   padding: 20px 200px;
-  width: calc(100% - 400px);
+  width: 100%;
 }
 
 .entries {
