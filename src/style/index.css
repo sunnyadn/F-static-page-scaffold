@@ -32,6 +32,8 @@ body {
   font-size: 0.8em;
   margin-top: 13px;
   border-radius: 2px;
+  border: none;
+  color: white;
 }
 
 .join-facebook {
@@ -71,6 +73,7 @@ body {
   align-items: center;
   padding: 30px;
   text-align: center;
+  margin: 0;
 }
 
 .entry + .entry {
